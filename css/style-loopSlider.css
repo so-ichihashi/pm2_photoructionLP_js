@@ -1,0 +1,48 @@
+.loopSliderWrap {
+  top: 0;
+  left: 0;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  margin-bottom: 100px;
+}
+
+.loopSlider {
+  margin: 0 auto;
+  width: 100%;
+  height: 100px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+.loopSlider ul {
+  width: auto;
+  height: 60px;
+  float: left;
+  overflow: hidden;
+}
+
+.loopSlider ul li {
+  width: auto;
+  height: 60px;
+  float: left;
+  display: inline;
+  overflow: hidden;
+}
+
+/* ------------------------------
+   CLEARFIX ELEMENTS
+------------------------------ */
+.loopSliderWrap:after {
+  content: "";
+  display: none;
+  clear: none;
+}
+
+.loopslider_wrap img {
+  width: auto;
+  height: 60px;
+  padding: 0 20px;
+}
