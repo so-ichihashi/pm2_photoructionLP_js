@@ -1,0 +1,27 @@
+.loopSlider {
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+}
+.loopSlider .loopslider_wrap {
+  height: 230px;
+  display: -webkit-flex;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.loopSlider .loopslider_wrap ul {
+  display: -webkit-flex;
+  display: flex;
+}
+.loopSlider .loopslider_wrap ul li {
+  width: 324px;
+}
+
+.loopslider_wrap img {
+  width: auto;
+  height: 60px;
+  border: 1px;
+  border-color: aqua;
+}
